@@ -16,13 +16,14 @@ export default {
   data(){
     return {
       isPlaying:false,
-      delay:null
+      delay:null,
+      
     }
   },
   methods: {
   start() {
     this.isPlaying = true; 
-    this.delay = 2000 + Math.random()*5000;
+    this.delay = 2000 + Math.random()*3000;
     }
   }
   
